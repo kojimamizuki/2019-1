@@ -44,7 +44,7 @@ function slidesw()
     if( cnt <= 7 )
     {
       //まだ表示されていなければ、setTimeout()で次の画像を表示する
-      var timer1=setTimeout("slidesw()",300);
+      var timer1=setTimeout("slidesw()",3000);
     }
     else
     {
